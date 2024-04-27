@@ -64,7 +64,7 @@ document.write("")
 let first_name = prompt("please input a first name");
 let last_name = prompt("please input a last name");
 function greet() {
-    var alerti = alert("welcome to this page " + first_name, " ", last_name)
+    var alerti = alert("welcome to this page " + first_name+ " "+ last_name);
     return alerti;
 }
 
